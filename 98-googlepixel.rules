@@ -1,0 +1,6 @@
+SUBSYSTEM=="usb", \
+    ATTRS{idVendor}=="18d1", \
+    ATTRS{idProduct}=="4ee4", \
+    TAG+="uaccess" \
+    MODE="660", \
+    GROUP="dialout"
